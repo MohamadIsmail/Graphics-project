@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Environment">
+      <UniqueIdentifier>{6d822c8c-48f8-491b-b5eb-b8df9aff4142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameManager">
+      <UniqueIdentifier>{2069e9df-470a-49f1-afc3-23f36124e6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Keyboard">
+      <UniqueIdentifier>{ef32c856-45d4-41de-b126-6d2fb93f65c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{fa707f03-59a9-4caa-8e9e-7cc5c41d1a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mouse">
+      <UniqueIdentifier>{920fee51-8c63-4a83-8f52-57ff48d41e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{462ae3e4-ebb2-47ea-9a44-195ce17c1fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TextureLoader">
+      <UniqueIdentifier>{4b34d37d-9b00-47f2-8e64-8e39e0f77309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\staticObjectLoader">
+      <UniqueIdentifier>{c87455d7-4fd8-49c9-9e6a-ab65488649ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\skeletalObjectLoader">
+      <UniqueIdentifier>{78c0faa7-3970-47cf-a24c-401a387f0a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SkyBox">
+      <UniqueIdentifier>{8beef16f-11e1-4ef5-a2df-09d09ab26d32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Environment.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment1.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="3dmath.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Header Files\TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader.h">
+      <Filter>Header Files\staticObjectLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalObject.h">
+      <Filter>Header Files\skeletalObjectLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Header Files\SkyBox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment1.cpp">
+      <Filter>Header Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Header Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Header Files\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="3dmath.cpp">
+      <Filter>Header Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Header Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Header Files\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Header Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Header Files\TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader.cpp">
+      <Filter>Header Files\staticObjectLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalObject.cpp">
+      <Filter>Header Files\skeletalObjectLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Header Files\SkyBox</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
