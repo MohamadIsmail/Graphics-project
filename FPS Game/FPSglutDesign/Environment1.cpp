@@ -73,17 +73,13 @@ void  Environment1:: drawWall(GLfloat x, GLfloat y, GLfloat z, GLfloat ori,strin
 
 }
 
-
-
  void Environment1:: LoadEnvironment()
 {
-	texture1 = TextureLoader::LoadTexture( "crate4.bmp", 1024, 1024 );
-	texture2 = TextureLoader::LoadTexture( "floor2.bmp", 1024, 1024 );
-	sky.loadSkybox(/*"jajlands1_ft.bmp"*/"sky2.bmp");
-	obj.init("cube.obj");
-	street=new SkeletalObject("MapShipment.3ds");
-	//street->applyTexture("000c9d3e.dds");
-	//street->applyTexture("4a535bac.dds");
+	texture1 = TextureLoader::LoadTexture( "Textures\\crate4.bmp", 1024, 1024 );
+	texture2 = TextureLoader::LoadTexture( "Textures\\floor2.bmp", 1024, 1024 );
+	sky.loadSkybox("Textures\\sky2.bmp");
+	obj.init("Models\\cube.obj");
+	street=new SkeletalObject("Models\\MapShipment.3ds");
 	street->CreateVBO();
 }
 void  Environment1:: UnLoadTextures()
